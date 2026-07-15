@@ -203,11 +203,24 @@ function About() {
   return (
     <section id="sobre" className="section">
       <div className="container about-grid">
-        <div className="about-image">
-          <ProfessionalPhoto alt="Celso Ricardo em ambiente profissional" />
-          <div>
+        <div className="about-management-visual">
+          <div className="management-orbit orbit-one" />
+          <div className="management-orbit orbit-two" />
+          <div className="management-building" aria-hidden="true">
+            <Building2 />
+          </div>
+          <div className="management-heading">
+            <span>Gestão em movimento</span>
+            <strong>Planejamento que<br />vira ação.</strong>
+          </div>
+          <div className="management-points">
+            <div><CircleCheck /><span>Rotina acompanhada</span></div>
+            <div><CircleCheck /><span>Decisões documentadas</span></div>
+            <div><CircleCheck /><span>Patrimônio protegido</span></div>
+          </div>
+          <div className="management-experience">
             <strong>20+</strong>
-            <span>anos dedicados à gestão condominial</span>
+            <span>anos de experiência</span>
           </div>
         </div>
         <div>
