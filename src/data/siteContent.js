@@ -1,9 +1,9 @@
 export const siteContent = {
   name: "Celso Ricardo",
   role: "Síndico Profissional",
-  email: "celsofilosofia9@gmail.com",
-  phone: "+55 (17) 99759-1177",
-  whatsapp: "5517997591177",
+  email: "celsosouzasindico@gmail.com",
+  phone: "+55 (17) 99714-1966",
+  whatsapp: "5517997141966",
   region: "",
   instagram: "",
   stats: [
